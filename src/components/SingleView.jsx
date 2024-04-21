@@ -46,7 +46,7 @@ const SingleView = props => {
 
 
 SingleView.propTypes = {
-  selectedItem: PropTypes.object,
+  selectedItem: PropTypes.object.isRequired,
   setSelectedItem: PropTypes.func.isRequired
 };
 
